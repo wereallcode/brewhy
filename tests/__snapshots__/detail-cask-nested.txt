@@ -1,0 +1,7 @@
+child-app
+1.0.0
+
+-> Installed as a cask.
+-> Directly required by parent-app (cask).
+-> Brings in 1 dependency: 1 direct.
+-> Directly requires helper-lib.

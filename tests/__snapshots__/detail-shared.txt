@@ -1,0 +1,9 @@
+openssl@3
+1.0.0
+
+-> Installed as a dependency.
+-> Directly required by node and wget.
+-> Brings in 1 dependency: 1 direct.
+-> Directly requires ca-certificates.
+-> This dependency is shared with other installation sources.
+-> Shared by 2 installation sources.

@@ -1,0 +1,8 @@
+readline
+1.0.0
+
+-> Installed on request.
+-> Also required by a-tool.
+-> Brings in 1 dependency: 1 direct.
+-> Directly requires ncurses.
+-> This dependency is shared with other installation sources.

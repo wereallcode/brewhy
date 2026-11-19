@@ -1,0 +1,7 @@
+podman
+1.0.0
+
+-> Installed as a dependency.
+-> Directly required by podman-desktop (cask).
+-> Brings in 1 dependency: 1 direct.
+-> Directly requires gvproxy.

@@ -1,0 +1,45 @@
+{
+  "name": "brewhy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A read-only CLI that explains why each formula is installed.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wereallcode/brewhy.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": "^22.22.2 || ^24.15.0"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.json",
+    "build:test": "rm -rf .test-build && tsc -p tests/tsconfig.json",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "lint": "eslint .",
+    "prepare": "husky",
+    "release": "semantic-release",
+    "test": "npm run build:test && node --test .test-build/tests/*.test.js",
+    "test:update": "npm run build:test && UPDATE_SNAPSHOTS=1 node --test .test-build/tests/*.test.js",
+    "typecheck": "tsc -p tests/tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.4",
+    "@commitlint/config-conventional": "^21.2.4",
+    "@eslint/js": "^10.0.1",
+    "@semantic-release/git": "^11.0.1",
+    "@semantic-release/npm": "^13.2.0",
+    "@trivago/prettier-plugin-sort-imports": "^6.0.2",
+    "@types/node": "^22.20.5",
+    "conventional-changelog-conventionalcommits": "^9.3.1",
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.6.1",
+    "prettier": "^3.10.1",
+    "semantic-release": "^25.0.9",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.72.2"
+  }
+}
