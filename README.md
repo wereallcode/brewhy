@@ -2,6 +2,10 @@
 
 A read-only CLI that explains why each formula is installed.
 
+## Why?
+
+See which formulae you installed yourself and which came in as dependencies, without changing anything in `Homebrew`.
+
 ## Preview
 
 <img src="docs/assets/preview.png" alt="Brewhy" width="700" />
@@ -12,7 +16,6 @@ A read-only CLI that explains why each formula is installed.
 
 - `macOS` with `Homebrew` — [requirements](https://docs.brew.sh/Installation#macos-requirements).
 - `Node.js 22.22.2+ (22.x)` or `24.15+`, with `npm`.
-- `Git` for building from source.
 
 ### Quick Start
 
