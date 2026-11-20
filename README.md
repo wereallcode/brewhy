@@ -4,7 +4,7 @@ A read-only CLI that explains why each formula is installed.
 
 ## Why?
 
-See which formulae you installed yourself and which came in as dependencies, without changing anything in `Homebrew`.
+See which formulae you installed yourself and which dependencies each one brought in.
 
 ## Preview
 
