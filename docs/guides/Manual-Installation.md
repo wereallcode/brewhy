@@ -62,6 +62,8 @@ Run `brewhy`. 🥳
 brewhy
 ```
 
+If `brewhy` is not found, check that `PATH` contains `$HOME/.brewhy/dist`.
+
 ## 3. Update
 
 Follow these steps to update your local copy and rebuild.
@@ -73,6 +75,8 @@ cd "$HOME/.brewhy" && git pull --ff-only
 ```bash
 npm ci --include=dev && npm run build
 ```
+
+Each build recreates `dist` and removes the `brewhy` link.
 
 ```bash
 chmod +x dist/cli.js && ln -s cli.js dist/brewhy

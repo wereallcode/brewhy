@@ -17,6 +17,8 @@ See which formulae you installed yourself and which dependencies each one brough
 - `macOS` with `Homebrew` — [requirements](https://docs.brew.sh/Installation#macos-requirements).
 - `Node.js 22.22.2+ (22.x)` or `24.15+`, with `npm`.
 
+Check your version with `node --version`.
+
 ### Quick Start
 
 Run this command in your terminal to download and build the latest published release.
@@ -27,7 +29,7 @@ curl -fsSL https://raw.githubusercontent.com/wereallcode/brewhy/master/scripts/i
 
 Open a new terminal and run `brewhy` for an overview; use `brewhy --help` or `brewhy --version` for details.
 
-_If `brewhy` is not found, follow the installer's instructions to add `$HOME/.local/bin` to your shell's `PATH`._
+_If `brewhy` is still not found, check with `command -v brewhy` and add `$HOME/.local/bin` to your shell's `PATH`._
 
 #### Update
 
@@ -46,4 +48,3 @@ This removes Brewhy's installed files and command link; Homebrew packages and sh
 ## Guides
 
 - [Manual Installation](docs/guides/Manual-Installation.md)
-- [Troubleshooting](docs/guides/Troubleshooting.md)
